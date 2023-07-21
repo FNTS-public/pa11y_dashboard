@@ -1,5 +1,9 @@
 name: publish
-on: [push]
+on: 
+  push:
+    paths:
+      - Dockerfile
+      - production.json
 jobs:
   publish-docker-image:
     runs-on: ubuntu-latest
