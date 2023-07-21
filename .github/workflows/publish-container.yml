@@ -13,5 +13,5 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build
         run: |
-              docker build . --tag ghcr.io/bcarlockfnts/pa11y-dashboard:latest
-              docker push ghcr.io/bcarlockfnts/pa11y-dashboard:latest
+              docker build . --tag ghcr.io/FNTS-public/pa11y-dashboard:latest
+              docker push ghcr.io/FNTS-public/pa11y-dashboard:latest
